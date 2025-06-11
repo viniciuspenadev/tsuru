@@ -1,0 +1,18 @@
+{
+  "name": "invoice-delphi/system",
+  "description": "Sistema de Faturamento Delphi",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "dompdf/dompdf": "^2.0",
+    "phpmailer/phpmailer": "^6.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "InvoiceDelphi\\": "classes/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
